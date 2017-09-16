@@ -1,14 +1,6 @@
-
 import java.awt.Color;
 import java.awt.Graphics2D;
 
-/**
- * Scale set to 2 gridlines per meter (100 pixels per meter) 400 pixels is 2
- * meters, T is 2.83 seconds
- * 
- * @author tompkinsj
- *
- */
 public class Grid {
 
 	private int w;
