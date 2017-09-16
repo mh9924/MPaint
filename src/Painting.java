@@ -42,9 +42,9 @@ public class Painting extends JComponent {
 			String curLine;
 			while((curLine = bufferedReader.readLine()) != null) {
 				String[] vals = curLine.split(",");
-				MyLine line = new MyLine(Integer.parseInt(vals[0]), Integer.parseInt(vals[1]), 
-						  				 Integer.parseInt(vals[2]), Integer.parseInt(vals[3]), 
-						  				 new Color(Integer.parseInt(vals[4])));
+				MyLine line = new MyLine(Integer.parseInt(vals[0].trim()), Integer.parseInt(vals[1].trim()), 
+						  				 Integer.parseInt(vals[2].trim()), Integer.parseInt(vals[3].trim()), 
+						  				 new Color(Integer.parseInt(vals[4].trim())));
 				this.lines.add(line);
 			}
 			
