@@ -12,6 +12,7 @@ import javax.swing.JComponent;
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 
+
 public class Painting extends JComponent {
 	private static final long serialVersionUID = 1L;
 	private ArrayList<MyLine> lines;

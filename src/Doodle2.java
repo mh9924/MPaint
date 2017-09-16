@@ -17,6 +17,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
+
 public class Doodle2 extends JPanel {
 	private static final long serialVersionUID = 1L;
 	private MyCanvas doodlingArea;

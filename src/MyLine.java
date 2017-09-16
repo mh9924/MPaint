@@ -1,6 +1,7 @@
 import java.awt.Color;
 import java.awt.Point;
 
+
 public class MyLine {
 	private int x1, x2, y1, y2;
 	private Point p1, p2;
