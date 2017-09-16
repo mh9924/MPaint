@@ -1,12 +1,3 @@
-
-// This doodle program maintains persistence of the drawing but only up to a point.
-// Persistence has a number of meanings in this context, for example:
-//     Cover or minimize the image, does it come back the same? 
-//     Turn off the program and restart it, does the last image get loaded and displayed or do you have to start over?
-//     Can you load an even older version of a saved image?
-// Step 1: Experiment and discover at least three areas that could be improved with regard to persistence of the image (not already identified above).
-// Step 2: Add the ability to save and load the image.
-// Step 3: Enhance this program with at least two of your ideas from step 1.
 import java.awt.BorderLayout;
 import java.awt.Canvas;
 import java.awt.Color;
