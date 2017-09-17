@@ -93,8 +93,7 @@ public class Painting extends JComponent {
 								Integer.parseInt(vals[2].trim()),
 								Integer.parseInt(vals[3].trim()),
 								Integer.parseInt(vals[4].trim()),
-								Integer.parseInt(vals[5].trim()),
-								Integer.parseInt(vals[6].trim()));
+								Integer.parseInt(vals[5].trim()));
 						this.circles.add(circle);
 					} else if (token == Tokens.RECT) {
 						ColoredRectangle2D rect = new 
@@ -155,6 +154,13 @@ public class Painting extends JComponent {
 		
 		public ColoredEllipse2D(int x, int y, int width, int height, int drawcolor, int fillcolor) {
 			super(x,y,width,height);
+			this.drawcolor = drawcolor;
+			this.fillcolor = fillcolor;
+		}
+		
+		// Constructor for circle
+		public ColoredEllipse2D(int x, int y, int diameter, int drawcolor, int fillcolor) {
+			super(x,y,diameter,diameter);
 			this.drawcolor = drawcolor;
 			this.fillcolor = fillcolor;
 		}
