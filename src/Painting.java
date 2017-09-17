@@ -69,34 +69,38 @@ public class Painting extends JComponent {
 			while((curLine = bufferedReader.readLine()) != null) {
 				String[] vals = curLine.split(",");
 				if(vals.length == 5) {  // We are reading in a line from legacy file (HW2), so just use MyLine objects.
-					MyLine line = new MyLine(Integer.parseInt(vals[0].trim()), Integer.parseInt(vals[1].trim()), 
-							  				 Integer.parseInt(vals[2].trim()), Integer.parseInt(vals[3].trim()), 
-							  				 new Color(Integer.parseInt(vals[4].trim())));
+					MyLine line = new 
+							MyLine(Integer.parseInt(vals[0].trim()), Integer.parseInt(vals[1].trim()), 
+									Integer.parseInt(vals[2].trim()), Integer.parseInt(vals[3].trim()), 
+									new Color(Integer.parseInt(vals[4].trim())));
 					this.l_lines.add(line);
 				} else {  // We are reading in a HW4 file with tokens - use Line2D and circles.
 					int token = Integer.parseInt(vals[0].trim());
 					if (token == Tokens.LINE) {
-						ColoredLine2D line = new ColoredLine2D(Integer.parseInt(vals[1].trim()),
-															   Integer.parseInt(vals[2].trim()),
-															   Integer.parseInt(vals[3].trim()),
-															   Integer.parseInt(vals[4].trim()),
-															   Integer.parseInt(vals[5].trim()));														   
+						ColoredLine2D line = new 
+								ColoredLine2D(Integer.parseInt(vals[1].trim()),
+								Integer.parseInt(vals[2].trim()),
+								Integer.parseInt(vals[3].trim()),
+								Integer.parseInt(vals[4].trim()),
+								Integer.parseInt(vals[5].trim()));														   
 						this.lines.add(line);
 					} else if (token == Tokens.CIRCLE) {
-						ColoredEllipse2D circle = new ColoredEllipse2D(Integer.parseInt(vals[1].trim()),
-																	   Integer.parseInt(vals[2].trim()),
-																	   Integer.parseInt(vals[3].trim()),
-																	   Integer.parseInt(vals[4].trim()),
-																	   Integer.parseInt(vals[5].trim()),
-																	   Integer.parseInt(vals[6].trim()));
+						ColoredEllipse2D circle = new 
+								ColoredEllipse2D(Integer.parseInt(vals[1].trim()),
+								Integer.parseInt(vals[2].trim()),
+								Integer.parseInt(vals[3].trim()),
+								Integer.parseInt(vals[4].trim()),
+								Integer.parseInt(vals[5].trim()),
+								Integer.parseInt(vals[6].trim()));
 						this.circles.add(circle);
 					} else if (token == Tokens.RECT) {
-						ColoredRectangle2D rect = new ColoredRectangle2D(Integer.parseInt(vals[1].trim()),
-																		 Integer.parseInt(vals[2].trim()),
-																		 Integer.parseInt(vals[3].trim()),
-																		 Integer.parseInt(vals[4].trim()),
-																		 Integer.parseInt(vals[5].trim()),
-																		 Integer.parseInt(vals[6].trim()));
+						ColoredRectangle2D rect = new 
+								ColoredRectangle2D(Integer.parseInt(vals[1].trim()),
+								Integer.parseInt(vals[2].trim()),
+								Integer.parseInt(vals[3].trim()),
+								Integer.parseInt(vals[4].trim()),
+								Integer.parseInt(vals[5].trim()),
+								Integer.parseInt(vals[6].trim()));
 						this.rects.add(rect);
 					}
 				}
