@@ -198,7 +198,7 @@ public class Painting extends JComponent {
 		frame.add(painting, BorderLayout.CENTER);
 		frame.setVisible(true);
 		
-		JFileChooser jfc = new JFileChooser();
+		JFileChooser jfc = new JFileChooser(".");
 		jfc.showOpenDialog(null);
 		File file = jfc.getSelectedFile();
 		if(file == null) System.exit(0);
