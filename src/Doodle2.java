@@ -28,7 +28,9 @@ public class Doodle2 extends JPanel {
 	private Color drawColor = Color.black;
 	private JButton saveBtn, clear, colorBtn;                          // addition *** 3a
 	private JLabel coords;
+	private ArrayList<MyLine> lines;
 	private ArrayList<Shape> shapes;
+	private String selectedShape;
 	private int x1, y1, x2, y2;
 	
 	
@@ -104,6 +106,10 @@ public class Doodle2 extends JPanel {
 	            System.out.println("PrintWriter not open");
 	        }
 	    }
+	}
+	
+	public void saveShapes() {
+		
 	}
 
 	public void clearTextFields() {
