@@ -26,7 +26,7 @@ public class Doodle2 extends JPanel {
 	private String[] text = { "Pressed", "Clicked", "Released", "Entered", "Exited", "Dragged", "X:", "Y:" };
 
 	private Color drawColor = Color.black;
-	private JButton saveBtn, clear, colorBtn;                          // addition *** 3a
+	private JButton saveBtn, clear, colorBtn, arcBtn, arcFBtn, rRectBtn, rRectFBtn, rectBtn, rectFBtn, polygBtn, polygFBtn, elipBtn, elipFBtn, lineBtn, polylBtn;                          // addition *** 3a
 	private JLabel coords;
 	private ArrayList<MyLine> lines;
 	private ArrayList<Shape> shapes;
