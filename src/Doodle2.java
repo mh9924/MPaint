@@ -110,28 +110,16 @@ public class Doodle2 extends JPanel {
 	
 	public void saveShapes() {
 		/*
-		 * saveShapes will iterate over below private methods based on first int value 
+		 * saveShapes will iterate over below private methods based on first int value
 		 * correlating to type of shape to be drawn.
 		 */
 	}
-	
-	private void saveRectangles() {
-		
-	}
-	
-	private void saveRoundRectangles() {
-		
-	}
-	
-	private void savePaths() {
-
-	}
-
-	private void saveEllipses() {
-
-	}
 
 	private void saveArcs() {
+
+	}
+
+	private void saveChars() {
 
 	}
 
@@ -139,7 +127,15 @@ public class Doodle2 extends JPanel {
 
 	}
 
+	private void saveEllipses() {
+
+	}
+
 	private void saveOval() {
+
+	}
+
+	private void savePaths() {
 
 	}
 
@@ -155,9 +151,29 @@ public class Doodle2 extends JPanel {
 
 	}
 
-	private void saveChars() {
+	private void saveRectangles() {
 
 	}
+
+	private void saveRoundRectangles() {
+
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	public void clearTextFields() {
 		for (int i = 0; i < 6; i++)
