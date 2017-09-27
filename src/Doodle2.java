@@ -30,7 +30,7 @@ public class Doodle2 extends JPanel {
 	private JLabel coords;
 	private ArrayList<MyLine> lines;
 	private ArrayList<Shape> shapes;
-	private String selectedShape;
+	private int selectedShape; //corresponding token
 	private int x1, y1, x2, y2;
 	
 	
