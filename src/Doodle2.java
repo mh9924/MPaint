@@ -120,64 +120,81 @@ public class Doodle2 extends JPanel {
 	}
 
 	private void saveArcs() {
-
+		/*
+		 * Graphics API, available to fill color drawArc(int x, int y, int width, int
+		 * height, int startAngle, int arcAngle) Draws the outline of a circular or
+		 * elliptical arc covering the specified rectangle.
+		 */
 	}
 
 	private void saveChars() {
-
+		/*
+		 * Graphics API drawChars(char[] data, int offset, int length, int x, int y)
+		 * Draws the text given by the specified character array, using this graphics
+		 * context's current font and color.
+		 */
 	}
 
 	private void saveCubicCurves() {
-
+		/*
+		 * Graphics2D API, available to fill color Additional info to be added later
+		 */
 	}
 
 	private void saveEllipses() {
-
+		/*
+		 * Graphics2D API, available to fill color Additional info to be added later
+		 */
 	}
 
 	private void saveOval() {
-
+		/*
+		 * Graphics API, available to fill color drawOval(int x, int y, int width, int
+		 * height) Draws the outline of an oval.
+		 */
 	}
 
 	private void savePaths() {
-
+		/*
+		 * Graphics2D API Additional info to be added later
+		 */
 	}
 
 	private void savePolygon() {
-
+		/*
+		 * Graphics API, available to fill color Polygon(int[] xpoints, int[] ypoints,
+		 * int npoints) Constructs and initializes a Polygon from the specified
+		 * parameters.
+		 */
 	}
 
 	private void savePolyline() {
-
+		/*
+		 * Graphics API drawPolyline(int[] xPoints, int[] yPoints, int nPoints) Draws a
+		 * sequence of connected lines defined by arrays of x and y coordinates.
+		 */
 	}
 
 	private void saveQuadCurves() {
-
+		/*
+		 * Graphics2D API Additional info to be added later
+		 */
 	}
 
 	private void saveRectangles() {
-
+		/*
+		 * Graphics API, available to fill color drawRect(int x, int y, int width, int
+		 * height) Draws the outline of the specified rectangle.
+		 */
 	}
 
 	private void saveRoundRectangles() {
-
+		/*
+		 * Graphics API, available to fill color drawRoundRect(int x, int y, int width,
+		 * int height, int arcWidth, int arcHeight) Draws an outlined round-cornered
+		 * rectangle using this graphics context's current color.
+		 */
 	}
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 	public void clearTextFields() {
 		for (int i = 0; i < 6; i++)
