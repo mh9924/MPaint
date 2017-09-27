@@ -1,3 +1,10 @@
+
+/**
+ * Token Key
+ * LINE = 0; CIRCLE = 1; RECT = 2; ARC = 3; CHARS = 4; OVAL = 5;
+ * POLYGON = 6; POLYLINE = 7; ROUNDRECT = 8; PATHS = 9; ELLIPSES = 10;
+ * CUBICCURVE = 11; QUADCURVE = 12;
+ */
 import java.awt.BorderLayout;
 import java.awt.Canvas;
 import java.awt.Color;
