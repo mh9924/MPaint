@@ -1,3 +1,7 @@
+/**
+ - * @author Matthew Harris and Andrew Gemuenden CSC331-001 Prof. J. Tompkins
+ - */
+
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
@@ -133,7 +137,6 @@ public class Painting extends JComponent {
 	}
 	
 	public class ColoredShape {
-		private static final long serialVersionUID = 1L;
 		public Shape s;
 		private int drawcolor;
 		private int fillcolor;
