@@ -132,6 +132,16 @@ public class Painting extends JComponent {
 		public static final int LINE = 0;
 		public static final int CIRCLE = 1;
 		public static final int RECT = 2;
+		public static final int ARC = 3;
+		public static final int CHARS = 4;
+		public static final int OVAL = 5;
+		public static final int POLYGON = 6;
+		public static final int POLYLINE = 7;
+		public static final int ROUNDRECT = 8;
+		public static final int PATHS = 9;
+		public static final int ELLIPSES = 10;
+		public static final int CUBICCURVE = 11;
+		public static final int QUADCURVE = 12;
 	}
 	
 	public class ColoredLine2D extends Line2D.Double {
