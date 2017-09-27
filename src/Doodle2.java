@@ -78,7 +78,10 @@ public class Doodle2 extends JPanel {
 	 */
 	
 	public void saveLines() {
-	    PrintWriter out = null;
+	    /*
+	     * Keeping MyLine as a legacy function to ensure past test.txts will also work with program
+	     */
+		PrintWriter out = null;
 
 	    try {
 	        System.out.println("Entering" + " try statement");
@@ -111,7 +114,8 @@ public class Doodle2 extends JPanel {
 	public void saveShapes() {
 		/*
 		 * saveShapes will iterate over below private methods based on first int value
-		 * correlating to type of shape to be drawn.
+		 * correlating to type of shape to be drawn. Almost identical to saveLines() but
+		 * replaces MyLine function.
 		 */
 	}
 
