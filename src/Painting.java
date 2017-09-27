@@ -1,3 +1,6 @@
+/**
+ * Authors Matthew Harris and Andrew Gemuenden CSC331-001 Prof. J. Tompkins
+ */
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
