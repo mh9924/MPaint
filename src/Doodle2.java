@@ -4,6 +4,7 @@ import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
+import java.awt.Shape;
 import java.awt.event.*;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -27,7 +28,7 @@ public class Doodle2 extends JPanel {
 	private Color drawColor = Color.black;
 	private JButton saveBtn, clear, colorBtn;                          // addition *** 3a
 	private JLabel coords;
-	private ArrayList<MyLine> lines;
+	private ArrayList<Shape> shapes;
 	private int x1, y1, x2, y2;
 	
 	
