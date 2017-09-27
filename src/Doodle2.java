@@ -111,6 +111,34 @@ public class Doodle2 extends JPanel {
 	public void saveShapes() {
 		
 	}
+	
+	private void saveRectangles() {
+		
+	}
+	
+	private void saveRoundRectangles() {
+		
+	}
+	
+	private void savePaths() {
+		
+	}
+	
+	private void saveEllipses() {
+		
+	}
+	
+	private void saveArcs() {
+		
+	}
+	
+	private void saveCubicCurves() {
+		
+	}
+	
+	private void saveQuadCurves() {
+		
+	}
 
 	public void clearTextFields() {
 		for (int i = 0; i < 6; i++)
