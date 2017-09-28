@@ -1,7 +1,7 @@
 /**
  * @author Matthew Harris 
- * @author Andrew Gemuenden 
- * CSC331-001 Prof. J. Tompkins
+ * @author Andrew Gemuenden
+ * @author CSC331-001 Prof. J. Tompkins
  */
 
 /*
@@ -36,16 +36,15 @@ public class Doodle2 extends JPanel {
 	private MyCanvas doodlingArea;
 	private JTextField[] mouseStates;
 	private String[] text = { "Pressed", "Clicked", "Released", "Entered", "Exited", "Dragged", "X:", "Y:" };
-
 	private Color drawColor = Color.black;
-	private JButton saveBtn, clear, colorBtn, arcBtn, arcFBtn, rRectBtn, rRectFBtn, rectBtn, rectFBtn, polygBtn, polygFBtn, elipBtn, elipFBtn, lineBtn, polylBtn;                          // addition *** 3a
+	private JButton saveBtn, clear, colorBtn, arcBtn, arcFBtn, rRectBtn, rRectFBtn, rectBtn, rectFBtn, polygBtn,
+			polygFBtn, elipBtn, elipFBtn, lineBtn, polylBtn; // addition *** 3a
 	private JLabel coords;
 	private ArrayList<MyLine> lines;
 	private ArrayList<Shape> shapes;
-	private int selectedShape; //corresponding token
+	private int selectedShape; // corresponding token
 	private int x1, y1, x2, y2;
-	
-	
+
 	public Doodle2() {
 		this(800, 800);
 	}
@@ -76,11 +75,11 @@ public class Doodle2 extends JPanel {
 		colorBtn = new JButton("Color");
 		colorBtn.addActionListener(new MyActionListener());
 		pSouth.add(colorBtn);
-		
+
 		saveBtn = new JButton("Save");
 		saveBtn.addActionListener(new MyActionListener());
 		pSouth.add(saveBtn);
-				
+
 		add("North", pNorth);
 		add("South", pSouth);
 	}

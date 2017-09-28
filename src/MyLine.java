@@ -1,6 +1,6 @@
 /**
- * @author Matthew Harris 
- * @author Andrew Gemuenden 
+ * @author Matthew Harris
+ * @author Andrew Gemuenden
  * CSC331-001 Prof. J. Tompkins
  */
 import java.awt.Color;

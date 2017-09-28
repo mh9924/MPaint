@@ -1,7 +1,7 @@
 /**
  * @author Matthew Harris 
- * @author Andrew Gemuenden 
- * CSC331-001 Prof. J. Tompkins
+ * @author Andrew Gemuenden
+ * @CSC331-001 Prof. J. Tompkins
  */
 
 import java.awt.BorderLayout;
@@ -54,6 +54,11 @@ public class Painting extends JComponent {
 	
 	
 	private void openLines(File selectedFile) {
+		/*
+		 * Will read-in a file of integers designed by a user from a paint interface.
+		 * If the lead integer matches a token key as identified in tokens
+		 * then the line will be read into that particular shape.
+		 */
 		BufferedReader bufferedReader = null;
 		FileReader fileReader = null;
 		try {
@@ -123,6 +128,10 @@ public class Painting extends JComponent {
 	}
 	
 	public final class Tokens {
+		/*
+		 * Assignment of token key's to identify type of shape to be drawn. Listing
+		 * also provided in Doodle2 author tag for quick reference
+		 */
 		public static final int LINE = 0;
 		public static final int CIRCLE = 1;
 		public static final int RECT = 2;
