@@ -1,9 +1,3 @@
-/**
- * @author Matthew Harris 
- * @author Andrew Gemuenden
- * @CSC331-001 Prof. J. Tompkins
- */
-
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
@@ -22,7 +16,11 @@ import java.util.ArrayList;
 import javax.swing.JComponent;
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
-
+/**
+ * @author Matthew Harris 
+ * @author Andrew Gemuenden
+ * @CSC331-001 Prof. J. Tompkins
+ */
 
 public class Painting extends JComponent {
 	private static final long serialVersionUID = 1L;

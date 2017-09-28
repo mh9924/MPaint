@@ -1,11 +1,10 @@
-/**
- * @author Matthew Harris
- * @author Andrew Gemuenden
- * CSC331-001 Prof. J. Tompkins
- */
 import java.awt.Color;
 import java.awt.Point;
-
+/**
+ * @author Matthew Harris 
+ * @author Andrew Gemuenden
+ * @CSC331-001 Prof. J. Tompkins
+ */
 
 public class MyLine {
 	private int x1, x2, y1, y2;

@@ -1,11 +1,10 @@
-/**
- * @author Matthew Harris
- * @author Andrew Gemuenden
- * CSC331-001 Prof. J. Tompkins
- */
 import java.awt.Color;
 import java.awt.Graphics2D;
-
+/**
+ * @author Matthew Harris 
+ * @author Andrew Gemuenden
+ * @CSC331-001 Prof. J. Tompkins
+ */
 
 public class Grid {
 
